@@ -3,13 +3,13 @@
 
 var once = fn => {
 
-    var exec = args => {
-        const VALUE = fn(...args);
+    var exec = () => {
+        const VALUE = fn();
         exec = () => VALUE;
         return VALUE;
     };
 
-    return (...args) => exec(args);
+    return exec;
 
 };
 
