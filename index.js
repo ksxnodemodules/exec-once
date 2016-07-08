@@ -9,7 +9,7 @@ var once = fn => {
         return VALUE;
     };
 
-    return exec;
+    return () => exec();
 
 };
 
