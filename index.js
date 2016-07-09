@@ -4,9 +4,14 @@
 var once = fn => {
 
     var exec = () => {
-        const VALUE = fn();
-        exec = () => VALUE;
-        return VALUE;
+        try {
+            const value = fn();
+            exec = () => value;
+            return value;
+        } catch (error) {
+            exec = () => {throw error};
+            throw error;
+        }
     };
 
     return () => exec();
