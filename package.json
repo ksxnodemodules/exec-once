@@ -1,6 +1,6 @@
 {
 	"name": "exec-once",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Once-Executing function creating utility",
 	"main": "index.js",
 	"author": "Hoàng Văn Khải <hvksmr1996@gmail.com>",
