@@ -1,5 +1,6 @@
 {
-	"name": "exec-once",
+  "name": "exec-once",
+  "private": true,
 	"version": "0.0.1",
 	"description": "Once-Executing function creating utility",
 	"main": "index.js",

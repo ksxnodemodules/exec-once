@@ -1,3 +1,6 @@
+# MOVED
+
+The code has been moved to [fun-little-utilities](https://github.com/ksxnodeapps/fun-little-utilities/tree/master/packages/exec-once)
 
 # exec-once
 Create functions that executes only once to get result
